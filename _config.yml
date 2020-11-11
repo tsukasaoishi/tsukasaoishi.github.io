@@ -4,6 +4,7 @@ description: "I am Tsukasa OISHI(おおいしつかさ/大石司).I work as a Te
 baseurl: ""
 url: "https://www.kaeruspoon.net"
 lang: ja_JP
+paginate: 20
 minima:
   social_links:
     twitter: tsukasa_oishi
