@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+[{% avatar tsukasaoishi size=120 %}](/about)
