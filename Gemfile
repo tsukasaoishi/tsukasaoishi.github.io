@@ -12,6 +12,7 @@ gem "jekyll-optional-front-matter"
 gem "jekyll-paginate"
 gem "jekyll-readme-index"
 gem "jekyll-relative-links"
+gem "jekyll-remote-theme"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 
@@ -21,5 +22,4 @@ gem "kramdown-parser-gfm"
 gem "jemoji"
 gem "nokogiri"
 
-gem "minima", github: "jekyll/minima"
 gem "github-pages-health-check"
