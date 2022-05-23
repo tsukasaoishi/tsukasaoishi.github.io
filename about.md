@@ -7,7 +7,6 @@ permalink: /about/
 {% avatar tsukasaoishi size=120 %}
 
 I am Tsukasa OISHI(おおいしつかさ/大石司).  
-I work as a Tech Lead at SRE Team at Tabelog.  
 My current interests are Ruby, Kubernetes and Motorcycle.
 
 * Github: [@tsukasaoishi](https://github.com/tsukasaoishi)
