@@ -1,40 +1,77 @@
+# Site settings
+site: kaeruspoon
 title: kaeruspoon
-email: tsukasa.oishi@gmail.com
-description: "I am Tsukasa OISHI(おおいしつかさ/大石司).My current interests are Ruby, Kubernetes and Motorcycle."
-baseurl: ""
-url: "https://www.kaeruspoon.net"
+keywords: blog
+description: >-
+  旅行とバイクとドライブと料理と宇宙が好き。
+  Ubie Discoveryのプログラマ。
 lang: ja_JP
-paginate: 20
-minima:
-  social_links:
-    twitter: tsukasa_oishi
-    github: tsukasaoishi
-twitter:
-  username: tsukasa_oishi
-  card: summary
-facebook:
-  admins: 671652438
-social:
-  name: Tsukasa OISHI
-  links:
-    - https://github.com/tsukasaoishi
-    - https://twitter.com/tsukasa_oishi
+timezone: Asia/Tokyo
+google_analytics:   G-TJV7MJCBL6
 
-markdown: CommonMarkGhPages
-highlighter: rouge
-remote_theme: jekyll/minima@3cdd14dff1216f561c68329e0b7420c2dc9b796a
+# Author settings
+author:
+  name: おおいしつかさ
+  bio: 旅行とバイクとドライブと料理と宇宙が好き。<br>Ubie Discoveryのプログラマ。
+  picture: assets/images/profile.jpg
+  github: tsukasaoishi
+  twitter: tsukasa_oishi
+  facebook: tsukasa.oishi
+  email: tsukasa.oishi@gmail.com
+
+# URL settings
+url: "https://www.kaeruspoon.net"
+permalink: pretty
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
+
 plugins:
-  - jekyll-avatar
-  - jekyll-coffeescript
-  - jekyll-commonmark-ghpages
-  - jekyll-default-layout
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-optional-front-matter
   - jekyll-paginate
-  - jekyll-readme-index
-  - jekyll-relative-links
-  - jekyll-remote-theme
-  - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-relative-links
+paginate: 20
+paginate_path: "/page/:num"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false

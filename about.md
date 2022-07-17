@@ -4,14 +4,6 @@ title: About
 permalink: /about/
 ---
 
-{% avatar tsukasaoishi size=120 %}
-
-I am Tsukasa OISHI(おおいしつかさ/大石司).  
-My current interests are Ruby, Kubernetes and Motorcycle.
-
-* Github: [@tsukasaoishi](https://github.com/tsukasaoishi)
-* twitter: [@tsukasa_oishi](https://twitter.com/tsukasa_oishi)
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uxOzLM4V_RE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Speaking

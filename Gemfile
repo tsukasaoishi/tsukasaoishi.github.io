@@ -1,25 +1,12 @@
 source "https://rubygems.org"
+gem 'jekyll'
+gem 'jekyll-paginate'
+gem 'jekyll-sitemap'
+gem 'jekyll-relative-links'
+gem "tzinfo-data", "~> 1.2021"
 
-gem "jekyll"
-gem "jekyll-avatar"
-gem "jekyll-coffeescript"
-gem "jekyll-commonmark-ghpages"
-gem "jekyll-default-layout"
-gem "jekyll-feed"
-gem "jekyll-gist"
-gem "jekyll-github-metadata"
-gem "jekyll-optional-front-matter"
-gem "jekyll-paginate"
-gem "jekyll-readme-index"
-gem "jekyll-relative-links"
-gem "jekyll-remote-theme"
-gem "jekyll-seo-tag"
-gem "jekyll-sitemap"
+# windows specific
+gem 'wdm', '>= 0.1.0'
 
-gem "terminal-table"
-gem "kramdown"
-gem "kramdown-parser-gfm"
-gem "jemoji"
-gem "nokogiri"
-
-gem "github-pages-health-check"
+# update ruby version
+gem 'webrick'
