@@ -163,11 +163,50 @@ body{
 .text-right{text-align: right;}
 .w-100{width: 100%!important;}
 
-a:hover{text-decoration: none;}
-a{color: var(--primary-font-color); text-decoration: none;}
+a{color: #ff69b4;text-decoration: none;}
+a:visited{color: #ff69b4;text-decoration: none;}
 img{max-width: 100%;}
 figure{margin:0; padding: 15px;}
 pre{font-size: 14px; max-width: 90vw; overflow: auto;}
+
+blockquote {
+    position: relative;
+    padding: 10px 12px;
+    box-sizing: border-box;
+    font-style: italic;
+    color: #464646;
+    border-left: solid 40px #c4c4c4;
+    background: #f3f3f3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.19);
+}
+blockquote:before{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -48px;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: "“";
+    font-family: sans-serif;
+    color: #FFF;
+    font-size: 80px;
+    line-height: 1;
+}
+blockquote p {
+    position: relative;
+    padding: 0;
+    margin: 10px 0;
+    z-index: 3;
+    line-height: 1.7;
+}
+blockquote cite {
+    display: block;
+    text-align: right;
+    color: #888888;
+    font-size: 0.9em;
+}
+
 .social-icon{height: 24px;}
 
 @media (min-width: 1200px){
